@@ -1,0 +1,71 @@
+/**********************************ELEMENT SELECTORS ************************/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div {
+  background-color: #E4F9F5;
+  margin: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3, a {
+  color: #11999E;
+}
+
+/**********************************CLASS SELECTORS****************************/
+.top-container {
+  background-color: #E4F9F5;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.top-cloud {
+  position: relative;
+  left: 200px;
+  margin-top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-icon-odd {
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-icon-even {
+  float: right;
+  margin-left: 30px;
+}
